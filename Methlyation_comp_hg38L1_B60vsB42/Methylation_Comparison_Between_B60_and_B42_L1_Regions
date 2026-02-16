@@ -1,0 +1,156 @@
+library(ggpubr)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(purrr)
+
+
+#Create boxplots grouped by `buffa_quartile`
+txtFontSize=12
+axisFontSize=12
+axisTtlFontSize=19
+lgdTtlFontSize=19
+lgdFontSize=12
+
+scienceTheme=theme(panel.grid.major=element_blank(), 
+                   panel.grid.minor=element_blank(), 
+                   legend.key=element_blank(), 
+                   legend.background=element_blank(), 
+                   panel.background = element_blank(), 
+                   panel.border=element_blank(),
+                   strip.background = element_blank(), 
+                   axis.line=element_line(size=0.7, color="black"), 
+                   axis.text.x=element_text(size=axisFontSize), 
+                   axis.text.y=element_text(size=axisFontSize), 
+                   axis.title.x=element_text(size=axisTtlFontSize), 
+                   axis.title.y=element_text(size=axisTtlFontSize,angle = 90), 
+                   legend.title=element_text(size=lgdTtlFontSize, 
+                                             face="bold"),
+                   legend.text=element_text(size=lgdFontSize),
+                   text=element_text(size=txtFontSize), 
+                   strip.text.x=element_text(size=axisTtlFontSize))
+theme_set(scienceTheme)
+B42_pileup <- "/Users/osredek/Desktop/EMBL/PROJECT_Bladder_cancer/B42_vs_B60_hg38L1_methlylation/B42tumor.pileup.bed"
+B60_pileup <- "/Users/osredek/Desktop/EMBL/PROJECT_Bladder_cancer/B42_vs_B60_hg38L1_methlylation/B060tumor.pileup.bed"
+L1_locations <- "/Users/osredek/Desktop/EMBL/PROJECT_Bladder_cancer/B42_vs_B60_hg38L1_methlylation/hg38_L1_locations.xlsx"
+
+
+# Column names you requested
+pileup_cols <- c(
+  "chrom", "start", "end", "modified_base", "score", "strand",
+  "start_incl", "end_incl", "color", "Nvalid_cov", "fraction_modified",
+  "Nmod", "Ncanonical", "Nother_mod", "Ndelete", "Nfail", "Ndiff", "Nnocall"
+)
+
+# Read pileup files
+B42_df <- read.table(B42_pileup, header = FALSE, sep = "\t", stringsAsFactors = FALSE)
+B60_df <- read.table(B60_pileup, header = FALSE, sep = "\t", stringsAsFactors = FALSE)
+
+# Assign column names
+colnames(B42_df) <- pileup_cols
+colnames(B60_df) <- pileup_cols
+
+
+# Read the first sheet 
+hg38_L1_df <- read_excel(L1_locations)
+
+# Since there is no strand information in the pileup files, we can just extract the methylation for all positions where meth coord is within the promoter region 
+hg38_L1_df_clean <- hg38_L1_df %>%
+  mutate(
+    prom_start = pmin(promotor_start, promotor_end),
+    prom_end   = pmax(promotor_start, promotor_end)
+  )
+
+
+# A function to extract promoter methylation for a pileup
+extract_promoter_meth <- function(pileup_df, promoters_df) {
+  map_dfr(seq_len(nrow(promoters_df)), function(i) {
+    p <- promoters_df[i, ]
+    pileup_df %>%
+      filter(
+        chrom == p$chr,
+        start >= p$promotor_start,
+        end   <= p$promotor_end
+      )
+  })
+}
+
+extract_body_meth <- function(pileup_df, body_df) {
+  map_dfr(seq_len(nrow(body_df)), function(i) {
+    p <- body_df[i, ]
+    pileup_df %>%
+      filter(
+        chrom == p$chr,
+        start >= p$body_start,
+        end   <= p$body_end
+      )
+  })
+}
+
+#Promotor values
+B42_promotor <- extract_promoter_meth(B42_df, hg38_L1_df_clean)
+B60_promotor <- extract_promoter_meth(B60_df, hg38_L1_df_clean)
+
+#Body values
+B42_body <- extract_body_meth(B42_df, hg38_L1_df_clean)
+B60_body <- extract_body_meth(B60_df, hg38_L1_df_clean)
+
+
+# Extract methylation values
+B42_vals_promotor <- B42_promotor$fraction_modified
+B60_vals_promotor <- B60_promotor$fraction_modified
+B42_vals_body     <- B42_body$fraction_modified
+B60_vals_body     <- B60_body$fraction_modified
+
+# Build tidy dataframe
+df_plot <- data.frame(
+  group = factor(
+    c(
+      rep("B42_promoter", length(B42_vals_promotor)),
+      rep("B60_promoter", length(B60_vals_promotor)),
+      rep("B42_body",     length(B42_vals_body)),
+      rep("B60_body",     length(B60_vals_body))
+    ),
+    levels = c("B42_promoter", "B60_promoter", "B42_body", "B60_body")
+  ),
+  methylation = c(B42_vals_promotor,
+                  B60_vals_promotor,
+                  B42_vals_body,
+                  B60_vals_body)
+)
+
+# Define the 4 comparisons
+comparisons <- list(
+  c("B42_promoter", "B60_promoter"),  # promotors between samples
+  c("B42_body", "B60_body"),          # bodies between samples
+  c("B42_promoter", "B42_body"),      # within B42
+  c("B60_promoter", "B60_body")       # within B60
+)
+
+# Compute exact p-values
+pvals <- sapply(comparisons, function(x) {
+  wilcox.test(df_plot$methylation[df_plot$group == x[1]],
+              df_plot$methylation[df_plot$group == x[2]])$p.value
+})
+
+pvals_fmt <- signif(pvals, 3)
+
+
+# Plot with brackets + exact p-values
+ggplot(df_plot, aes(x = group, y = methylation)) +
+  geom_boxplot(outlier.alpha = 0.1) +
+  scienceTheme +
+  scale_x_discrete(labels = c(
+    "B42_promoter" = "B42\nPromoter",
+    "B60_promoter" = "B60\nPromoter",
+    "B42_body"     = "B42\nBody",
+    "B60_body"     = "B60\nBody"
+  )) +
+  ylab("Fraction Modified") + xlab("") +
+  ggtitle("Methylation Comparison Between B60 and B42 L1 Regions") +
+  stat_compare_means(comparisons = comparisons,
+                     method = "wilcox.test",
+                     label = "p.signif",
+                     step.increase = 0.08) 
+
+
