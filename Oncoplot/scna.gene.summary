@@ -1,0 +1,400 @@
+sample	cnStatus	gene	chr	startnd
+B134tumor	Amplification	ARHGAP35	chr19	46860997	47000688
+B32tumor	subclonalLOH	ARHGAP35	chr19	46860997	47000688
+B42tumor	Amplification	ARHGAP35	chr19	46860997	47000688
+B4tumor	Amplification	ARHGAP35	chr19	46860997	47000688
+B5tumor	cnLOH	ARHGAP35	chr19	46860997	47000688
+B67tumor	subclonalAmp	ARHGAP35	chr19	46860997	47000688
+B85tumor	subclonalLOH	ARHGAP35	chr19	46860997	47000688
+B12tumor	subclonalLOH	ARID1A	chr1	26693236	26780756
+B4tumor	Amplification	ARID1A	chr1	26693236	26780756
+B5tumor	cnLOH	ARID1A	chr1	26693236	26780756
+B94tumor	cnLOH	ARID1A	chr1	26693236	26780756
+B134tumor	Amplification	ASXL2	chr2	25733753	25878222
+B178tumor	Deletion	ASXL2	chr2	25733753	25878222
+B32tumor	subclonalLOH	ASXL2	chr2	25733753	25878222
+B39tumor	cnLOH	ASXL2	chr2	25733753	25878222
+B42tumor	Amplification	ASXL2	chr2	25733753	25878222
+B4tumor	Amplification	ASXL2	chr2	25733753	25878222
+B123tumor	Amplification	ATM	chr11	108222804	108365508
+B12tumor	subclonalLOH	ATM	chr11	108222804	108365508
+B134tumor	cnLOH	ATM	chr11	108222804	108365508
+B187tumor	subclonalDel	ATM	chr11	108222804	108365508
+B32tumor	subclonalLOH	ATM	chr11	108222804	108365508
+B42tumor	subclonalAmp	ATM	chr11	108222804	108365508
+B4tumor	cnLOH	ATM	chr11	108222804	108365508
+B5tumor	Amplification	ATM	chr11	108222804	108365508
+B123tumor	Amplification	BRCA1	chr17	43044295	43170245
+B154tumor	Amplification	BRCA1	chr17	43044295	43170245
+B42tumor	subclonalAmp	BRCA1	chr17	43044295	43170245
+B4tumor	Amplification	BRCA1	chr17	43044295	43170245
+B5tumor	Amplification	BRCA1	chr17	43044295	43170245
+B74tumor	Amplification	BRCA1	chr17	43044295	43170245
+B94tumor	cnLOH	BRCA1	chr17	43044295	43170245
+B12tumor	subclonalLOH	CDA	chr1	20589086	20618568
+B42tumor	Amplification	CDA	chr1	20589086	20618568
+B4tumor	Amplification	CDA	chr1	20589086	20618568
+B5tumor	cnLOH	CDA	chr1	20589086	20618568
+B94tumor	cnLOH	CDA	chr1	20589086	20618568
+B134tumor	cnLOH	CDKN1A	chr6	36676460	36685800
+B42tumor	Amplification	CDKN1A	chr6	36676460	36685800
+B4tumor	cnLOH	CDKN1A	chr6	36676460	36685800
+B5tumor	Amplification	CDKN1A	chr6	36676460	36685800
+B123tumor	cnLOH	CDKN2A	chr9	21967752	21995301
+B125tumor	Deletion	CDKN2A	chr9	21967752	21995301
+B12tumor	Deletion	CDKN2A	chr9	21967752	21995301
+B134tumor	Deletion	CDKN2A	chr9	21967752	21995301
+B154tumor	Deletion	CDKN2A	chr9	21967752	21995301
+B157tumor	cnLOH	CDKN2A	chr9	21967752	21995301
+B4tumor	cnLOH	CDKN2A	chr9	21967752	21995301
+B5tumor	Deletion	CDKN2A	chr9	21967752	21995301
+B123tumor	Amplification	CHD6	chr20	41402083	41618384
+B125tumor	Amplification	CHD6	chr20	41402083	41618384
+B32tumor	Amplification	CHD6	chr20	41402083	41618384
+B5tumor	Amplification	CHD6	chr20	41402083	41618384
+B060tumor	subclonalLOH	CREBBP	chr16	3725054	3879916
+B123tumor	Amplification	CREBBP	chr16	3725054	3879916
+B134tumor	Amplification	CREBBP	chr16	3725054	3879916
+B42tumor	subclonalLOH	CREBBP	chr16	3725054	3879916
+B134tumor	Deletion	EGFR	chr7	55019017	55205617
+B42tumor	subclonalDel	EGFR	chr7	55019017	55205617
+B134tumor	cnLOH	EP300	chr22	41092510	41178956
+B42tumor	subclonalLOH	EP300	chr22	41092510	41178956
+B5tumor	cnLOH	EP300	chr22	41092510	41178956
+B67tumor	subclonalAmp	EP300	chr22	41092510	41178956
+B123tumor	Amplification	ERBB2	chr17	39687914	39730426
+B154tumor	Amplification	ERBB2	chr17	39687914	39730426
+B42tumor	subclonalLOH	ERBB2	chr17	39687914	39730426
+B5tumor	Amplification	ERBB2	chr17	39687914	39730426
+B67tumor	Amplification	ERBB2	chr17	39687914	39730426
+B94tumor	cnLOH	ERBB2	chr17	39687914	39730426
+B32tumor	subclonalLOH	ERBB3	chr12	56076799	56102055
+B5tumor	cnLOH	ERBB3	chr12	56076799	56102055
+B67tumor	subclonalDel	ERBB3	chr12	56076799	56102055
+B32tumor	subclonalLOH	ERCC1	chr19	45407334	45478828
+B42tumor	Amplification	ERCC1	chr19	45407334	45478828
+B4tumor	Amplification	ERCC1	chr19	45407334	45478828
+B5tumor	cnLOH	ERCC1	chr19	45407334	45478828
+B67tumor	Amplification	ERCC1	chr19	45407334	45478828
+B32tumor	subclonalLOH	ERCC2	chr19	45349837	45370540
+B42tumor	Amplification	ERCC2	chr19	45349837	45370540
+B4tumor	Amplification	ERCC2	chr19	45349837	45370540
+B5tumor	cnLOH	ERCC2	chr19	45349837	45370540
+B67tumor	Amplification	ERCC2	chr19	45349837	45370540
+B32tumor	subclonalLOH	ESPL1	chr12	53268299	53293474
+B39tumor	Deletion	ESPL1	chr12	53268299	53293474
+B4tumor	cnLOH	ESPL1	chr12	53268299	53293474
+B5tumor	cnLOH	ESPL1	chr12	53268299	53293474
+B67tumor	subclonalLOH	ESPL1	chr12	53268299	53293474
+B123tumor	Deletion	FAT1	chr4	186587794	186726722
+B12tumor	subclonalLOH	FAT1	chr4	186587794	186726722
+B4tumor	subclonalLOH	FAT1	chr4	186587794	186726722
+B123tumor	cnLOH	FBXW7	chr4	152320544	152536092
+B12tumor	cnLOH	FBXW7	chr4	152320544	152536092
+B4tumor	subclonalLOH	FBXW7	chr4	152320544	152536092
+B67tumor	subclonalLOH	FBXW7	chr4	152320544	152536092
+B12tumor	cnLOH	FGFR3	chr4	1793293	1807288
+B178tumor	Amplification	FGFR3	chr4	1793293	1807288
+B4tumor	cnLOH	FGFR3	chr4	1793293	1807288
+B67tumor	subclonalLOH	FGFR3	chr4	1793293	1807288
+B12tumor	cnLOH	GSTM1	chr1	109687814	109709039
+B42tumor	Amplification	GSTM1	chr1	109687814	109709039
+B5tumor	cnLOH	GSTM1	chr1	109687814	109709039
+B94tumor	cnLOH	GSTM1	chr1	109687814	109709039
+B123tumor	cnLOH	GSTP1	chr11	67583742	67586577
+B134tumor	cnLOH	GSTP1	chr11	67583742	67586577
+B187tumor	Deletion	GSTP1	chr11	67583742	67586577
+B32tumor	subclonalAmp	GSTP1	chr11	67583742	67586577
+B42tumor	cnLOH	GSTP1	chr11	67583742	67586577
+B4tumor	Amplification	GSTP1	chr11	67583742	67586577
+B5tumor	Amplification	GSTP1	chr11	67583742	67586577
+B060tumor	Deletion	GSTT			
+B123tumor	Deletion	GSTT			
+B125tumor	Deletion	GSTT			
+B12tumor	Deletion	GSTT			
+B134tumor	Deletion	GSTT			
+B154tumor	Deletion	GSTT			
+B156tumor	Deletion	GSTT			
+B157tumor	Deletion	GSTT			
+B175tumor	Deletion	GSTT			
+B178tumor	Deletion	GSTT			
+B187tumor	Deletion	GSTT			
+B22tumor	Deletion	GSTT			
+B24tumor	Deletion	GSTT			
+B32tumor	Deletion	GSTT			
+B39tumor	Deletion	GSTT			
+B42tumor	Deletion	GSTT			
+B4tumor	Deletion	GSTT			
+B5tumor	Deletion	GSTT			
+B67tumor	Deletion	GSTT			
+B74tumor	Deletion	GSTT			
+B85tumor	Deletion	GSTT			
+B87tumor	Deletion	GSTT			
+B94tumor	Deletion	GSTT			
+B060tumor	Deletion	HER2			
+B123tumor	Deletion	HER2			
+B125tumor	Deletion	HER2			
+B12tumor	Deletion	HER2			
+B134tumor	Deletion	HER2			
+B154tumor	Deletion	HER2			
+B156tumor	Deletion	HER2			
+B157tumor	Deletion	HER2			
+B175tumor	Deletion	HER2			
+B178tumor	Deletion	HER2			
+B187tumor	Deletion	HER2			
+B22tumor	Deletion	HER2			
+B24tumor	Deletion	HER2			
+B32tumor	Deletion	HER2			
+B39tumor	Deletion	HER2			
+B42tumor	Deletion	HER2			
+B4tumor	Deletion	HER2			
+B5tumor	Deletion	HER2			
+B67tumor	Deletion	HER2			
+B74tumor	Deletion	HER2			
+B85tumor	Deletion	HER2			
+B87tumor	Deletion	HER2			
+B94tumor	Deletion	HER2			
+B12tumor	cnLOH	HRAS	chr11	532242	537287
+B134tumor	Deletion	HRAS	chr11	532242	537287
+B32tumor	subclonalLOH	HRAS	chr11	532242	537287
+B39tumor	Deletion	HRAS	chr11	532242	537287
+B42tumor	Deletion	HRAS	chr11	532242	537287
+B5tumor	Deletion	HRAS	chr11	532242	537287
+B67tumor	subclonalAmp	HRAS	chr11	532242	537287
+B134tumor	Amplification	KANSL1	chr17	46029916	46225389
+B154tumor	Amplification	KANSL1	chr17	46029916	46225389
+B4tumor	Amplification	KANSL1	chr17	46029916	46225389
+B5tumor	Amplification	KANSL1	chr17	46029916	46225389
+B94tumor	subclonalLOH	KANSL1	chr17	46029916	46225389
+B060tumor	Deletion	KDM6A	chrX	44873188	45111411
+B123tumor	Deletion	KDM6A	chrX	44873188	45111411
+B125tumor	Deletion	KDM6A	chrX	44873188	45111411
+B12tumor	Deletion	KDM6A	chrX	44873188	45111411
+B134tumor	Deletion	KDM6A	chrX	44873188	45111411
+B154tumor	Deletion	KDM6A	chrX	44873188	45111411
+B157tumor	Deletion	KDM6A	chrX	44873188	45111411
+B175tumor	Deletion	KDM6A	chrX	44873188	45111411
+B24tumor	Deletion	KDM6A	chrX	44873188	45111411
+B39tumor	Deletion	KDM6A	chrX	44873188	45111411
+B42tumor	Amplification	KDM6A	chrX	44873188	45111411
+B4tumor	Deletion	KDM6A	chrX	44873188	45111411
+B5tumor	Deletion	KDM6A	chrX	44873188	45111411
+B67tumor	Deletion	KDM6A	chrX	44873188	45111411
+B74tumor	Deletion	KDM6A	chrX	44873188	45111411
+B85tumor	Deletion	KDM6A	chrX	44873188	45111411
+B94tumor	Deletion	KDM6A	chrX	44873188	45111411
+B123tumor	Amplification	KLF5	chr13	73054976	73075886
+B42tumor	Deletion	KLF5	chr13	73054976	73075886
+B4tumor	cnLOH	KLF5	chr13	73054976	73075886
+B123tumor	subclonalAmp	KMT2A	chr11	118436456	118522172
+B12tumor	cnLOH	KMT2A	chr11	118436456	118522172
+B134tumor	cnLOH	KMT2A	chr11	118436456	118522172
+B32tumor	subclonalLOH	KMT2A	chr11	118436456	118522172
+B42tumor	Amplification	KMT2A	chr11	118436456	118522172
+B4tumor	cnLOH	KMT2A	chr11	118436456	118522172
+B5tumor	Amplification	KMT2A	chr11	118436456	118522172
+B42tumor	subclonalDel	KMT2C	chr7	152134922	152436644
+B32tumor	subclonalLOH	KMT2D	chr12	49018975	49060794
+B39tumor	Deletion	KMT2D	chr12	49018975	49060794
+B4tumor	subclonalAmp	KMT2D	chr12	49018975	49060794
+B5tumor	cnLOH	KMT2D	chr12	49018975	49060794
+B125tumor	Amplification	LAPTM4B	chr8	97775057	97851474
+B157tumor	Amplification	LAPTM4B	chr8	97775057	97851474
+B187tumor	Amplification	LAPTM4B	chr8	97775057	97851474
+B5tumor	Amplification	LAPTM4B	chr8	97775057	97851474
+B12tumor	cnLOH	LXN	chr3	158645822	158672478
+B134tumor	cnLOH	LXN	chr3	158645822	158672478
+B42tumor	subclonalLOH	LXN	chr3	158645822	158672478
+B4tumor	Amplification	LXN	chr3	158645822	158672478
+B125tumor	Amplification	NAPRT	chr8	143574785	143578649
+B187tumor	Amplification	NAPRT	chr8	143574785	143578649
+B42tumor	cnLOH	NAPRT	chr8	143574785	143578649
+B5tumor	Amplification	NAPRT	chr8	143574785	143578649
+B123tumor	Deletion	NCOR1	chr17	16029065	16218185
+B12tumor	cnLOH	NCOR1	chr17	16029065	16218185
+B134tumor	subclonalLOH	NCOR1	chr17	16029065	16218185
+B154tumor	Deletion	NCOR1	chr17	16029065	16218185
+B39tumor	Deletion	NCOR1	chr17	16029065	16218185
+B42tumor	subclonalLOH	NCOR1	chr17	16029065	16218185
+B5tumor	cnLOH	NCOR1	chr17	16029065	16218185
+B67tumor	subclonalLOH	NCOR1	chr17	16029065	16218185
+B74tumor	Deletion	NCOR1	chr17	16029065	16218185
+B85tumor	subclonalLOH	NCOR1	chr17	16029065	16218185
+B154tumor	Amplification	NF1	chr17	31094927	31382116
+B42tumor	Amplification	NF1	chr17	31094927	31382116
+B4tumor	Amplification	NF1	chr17	31094927	31382116
+B5tumor	Amplification	NF1	chr17	31094927	31382116
+B67tumor	Amplification	NF1	chr17	31094927	31382116
+B94tumor	cnLOH	NF1	chr17	31094927	31382116
+B123tumor	Amplification	NF2	chr22	29603553	29697525
+B134tumor	Amplification	NF2	chr22	29603553	29697525
+B42tumor	Amplification	NF2	chr22	29603553	29697525
+B4tumor	Amplification	NF2	chr22	29603553	29697525
+B67tumor	subclonalAmp	NF2	chr22	29603553	29697525
+B85tumor	subclonalDel	NF2	chr22	29603553	29697525
+B060tumor	Deletion	P16			
+B123tumor	Deletion	P16			
+B125tumor	Deletion	P16			
+B12tumor	Deletion	P16			
+B134tumor	Deletion	P16			
+B154tumor	Deletion	P16			
+B156tumor	Deletion	P16			
+B157tumor	Deletion	P16			
+B175tumor	Deletion	P16			
+B178tumor	Deletion	P16			
+B187tumor	Deletion	P16			
+B22tumor	Deletion	P16			
+B24tumor	Deletion	P16			
+B32tumor	Deletion	P16			
+B39tumor	Deletion	P16			
+B42tumor	Deletion	P16			
+B4tumor	Deletion	P16			
+B5tumor	Deletion	P16			
+B67tumor	Deletion	P16			
+B74tumor	Deletion	P16			
+B85tumor	Deletion	P16			
+B87tumor	Deletion	P16			
+B94tumor	Deletion	P16			
+B060tumor	Deletion	P53			
+B123tumor	Deletion	P53			
+B125tumor	Deletion	P53			
+B12tumor	Deletion	P53			
+B134tumor	Deletion	P53			
+B154tumor	Deletion	P53			
+B156tumor	Deletion	P53			
+B157tumor	Deletion	P53			
+B175tumor	Deletion	P53			
+B178tumor	Deletion	P53			
+B187tumor	Deletion	P53			
+B22tumor	Deletion	P53			
+B24tumor	Deletion	P53			
+B32tumor	Deletion	P53			
+B39tumor	Deletion	P53			
+B42tumor	Deletion	P53			
+B4tumor	Deletion	P53			
+B5tumor	Deletion	P53			
+B67tumor	Deletion	P53			
+B74tumor	Deletion	P53			
+B85tumor	Deletion	P53			
+B87tumor	Deletion	P53			
+B94tumor	Deletion	P53			
+B123tumor	Amplification	PARP6	chr15	72241181	72272999
+B178tumor	Amplification	PARP6	chr15	72241181	72272999
+B42tumor	cnLOH	PARP6	chr15	72241181	72272999
+B4tumor	cnLOH	PARP6	chr15	72241181	72272999
+B5tumor	cnLOH	PARP6	chr15	72241181	72272999
+B12tumor	Amplification	PIK3CA	chr3	179148114	179234364
+B134tumor	cnLOH	PIK3CA	chr3	179148114	179234364
+B42tumor	cnLOH	PIK3CA	chr3	179148114	179234364
+B4tumor	Amplification	PIK3CA	chr3	179148114	179234364
+B5tumor	subclonalAmp	PIK3CA	chr3	179148114	179234364
+B123tumor	Deletion	PTEN	chr10	87862638	87965472
+B125tumor	Deletion	PTEN	chr10	87862638	87965472
+B134tumor	Deletion	PTEN	chr10	87862638	87965472
+B32tumor	subclonalDel	PTEN	chr10	87862638	87965472
+B67tumor	subclonalDel	PTEN	chr10	87862638	87965472
+B123tumor	Deletion	RAI1	chr17	17681458	17809981
+B12tumor	Deletion	RAI1	chr17	17681458	17809981
+B154tumor	Deletion	RAI1	chr17	17681458	17809981
+B24tumor	subclonalDel	RAI1	chr17	17681458	17809981
+B39tumor	Deletion	RAI1	chr17	17681458	17809981
+B42tumor	subclonalLOH	RAI1	chr17	17681458	17809981
+B5tumor	subclonalLOH	RAI1	chr17	17681458	17809981
+B74tumor	Deletion	RAI1	chr17	17681458	17809981
+B85tumor	subclonalDel	RAI1	chr17	17681458	17809981
+B123tumor	Deletion	RB1	chr13	48303744	48599436
+B32tumor	subclonalDel	RB1	chr13	48303744	48599436
+B42tumor	Deletion	RB1	chr13	48303744	48599436
+B4tumor	Deletion	RB1	chr13	48303744	48599436
+B67tumor	subclonalDel	RB1	chr13	48303744	48599436
+B12tumor	Deletion	RHOA	chr3	49359139	49412998
+B187tumor	Deletion	RHOA	chr3	49359139	49412998
+B5tumor	Deletion	RHOA	chr3	49359139	49412998
+B12tumor	cnLOH	SPATC1L	chr21	46161148	46184476
+B4tumor	Amplification	SPATC1L	chr21	46161148	46184476
+B5tumor	Amplification	SPATC1L	chr21	46161148	46184476
+B123tumor	Amplification	SPTAN1	chr9	128552558	128633334
+B125tumor	Deletion	SPTAN1	chr9	128552558	128633334
+B134tumor	Deletion	SPTAN1	chr9	128552558	128633334
+B154tumor	Deletion	SPTAN1	chr9	128552558	128633334
+B178tumor	Deletion	SPTAN1	chr9	128552558	128633334
+B187tumor	Deletion	SPTAN1	chr9	128552558	128633334
+B39tumor	Deletion	SPTAN1	chr9	128552558	128633334
+B4tumor	cnLOH	SPTAN1	chr9	128552558	128633334
+B5tumor	cnLOH	SPTAN1	chr9	128552558	128633334
+B74tumor	Deletion	SPTAN1	chr9	128552558	128633334
+B060tumor	Deletion	STAG2	chrX	123960212	124422664
+B123tumor	Deletion	STAG2	chrX	123960212	124422664
+B125tumor	Deletion	STAG2	chrX	123960212	124422664
+B12tumor	Deletion	STAG2	chrX	123960212	124422664
+B134tumor	Deletion	STAG2	chrX	123960212	124422664
+B154tumor	Deletion	STAG2	chrX	123960212	124422664
+B157tumor	Deletion	STAG2	chrX	123960212	124422664
+B175tumor	Deletion	STAG2	chrX	123960212	124422664
+B178tumor	Deletion	STAG2	chrX	123960212	124422664
+B24tumor	Deletion	STAG2	chrX	123960212	124422664
+B39tumor	Deletion	STAG2	chrX	123960212	124422664
+B4tumor	Deletion	STAG2	chrX	123960212	124422664
+B5tumor	Deletion	STAG2	chrX	123960212	124422664
+B67tumor	Deletion	STAG2	chrX	123960212	124422664
+B74tumor	Deletion	STAG2	chrX	123960212	124422664
+B85tumor	Deletion	STAG2	chrX	123960212	124422664
+B94tumor	Deletion	STAG2	chrX	123960212	124422664
+B123tumor	subclonalDel	TERT	chr5	1253147	1294989
+B125tumor	Amplification	TERT	chr5	1253147	1294989
+B42tumor	Amplification	TERT	chr5	1253147	1294989
+B4tumor	Amplification	TERT	chr5	1253147	1294989
+B5tumor	Amplification	TERT	chr5	1253147	1294989
+B94tumor	Amplification	TERT	chr5	1253147	1294989
+B123tumor	cnLOH	TP53	chr17	7661779	7687546
+B12tumor	subclonalDel	TP53	chr17	7661779	7687546
+B134tumor	cnLOH	TP53	chr17	7661779	7687546
+B154tumor	Deletion	TP53	chr17	7661779	7687546
+B32tumor	subclonalLOH	TP53	chr17	7661779	7687546
+B39tumor	cnLOH	TP53	chr17	7661779	7687546
+B5tumor	cnLOH	TP53	chr17	7661779	7687546
+B67tumor	Amplification	TP53	chr17	7661779	7687546
+B74tumor	Deletion	TP53	chr17	7661779	7687546
+B85tumor	subclonalDel	TP53	chr17	7661779	7687546
+B123tumor	Amplification	TSC1	chr9	132891348	132946874
+B125tumor	Deletion	TSC1	chr9	132891348	132946874
+B134tumor	Deletion	TSC1	chr9	132891348	132946874
+B154tumor	Deletion	TSC1	chr9	132891348	132946874
+B178tumor	Deletion	TSC1	chr9	132891348	132946874
+B187tumor	Deletion	TSC1	chr9	132891348	132946874
+B39tumor	Deletion	TSC1	chr9	132891348	132946874
+B4tumor	cnLOH	TSC1	chr9	132891348	132946874
+B5tumor	cnLOH	TSC1	chr9	132891348	132946874
+B74tumor	Deletion	TSC1	chr9	132891348	132946874
+B060tumor	cnLOH	TSC2	chr16	2047967	2088610
+B123tumor	Amplification	TSC2	chr16	2047967	2088610
+B134tumor	Amplification	TSC2	chr16	2047967	2088610
+B42tumor	subclonalLOH	TSC2	chr16	2047967	2088610
+B060tumor	Deletion	UTX			
+B123tumor	Deletion	UTX			
+B125tumor	Deletion	UTX			
+B12tumor	Deletion	UTX			
+B134tumor	Deletion	UTX			
+B154tumor	Deletion	UTX			
+B156tumor	Deletion	UTX			
+B157tumor	Deletion	UTX			
+B175tumor	Deletion	UTX			
+B178tumor	Deletion	UTX			
+B187tumor	Deletion	UTX			
+B22tumor	Deletion	UTX			
+B24tumor	Deletion	UTX			
+B32tumor	Deletion	UTX			
+B39tumor	Deletion	UTX			
+B42tumor	Deletion	UTX			
+B4tumor	Deletion	UTX			
+B5tumor	Deletion	UTX			
+B67tumor	Deletion	UTX			
+B74tumor	Deletion	UTX			
+B85tumor	Deletion	UTX			
+B87tumor	Deletion	UTX			
+B94tumor	Deletion	UTX			
+B32tumor	subclonalLOH	XRCC1	chr19	43543311	43580436
+B42tumor	Amplification	XRCC1	chr19	43543311	43580436
+B4tumor	Amplification	XRCC1	chr19	43543311	43580436
+B5tumor	cnLOH	XRCC1	chr19	43543311	43580436
+B67tumor	subclonalAmp	XRCC1	chr19	43543311	43580436
