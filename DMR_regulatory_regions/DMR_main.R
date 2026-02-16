@@ -1,5 +1,5 @@
-#Script to analyse dmr of promoter regions between the two haploypes of the same tumour for all samples, and to look for the potential SVs present in the 
-#regions and their downstream effects 
+#Script to perform Integrative analysis of methylation, SNVs and RNA-seq expression
+
 
 library(ggplot2)
 library(dplyr)
