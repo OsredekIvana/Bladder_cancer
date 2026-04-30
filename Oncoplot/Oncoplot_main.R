@@ -397,13 +397,14 @@ mut_matrix <- gene_sample_mut %>%
 
 # Define colors for mutation types (add more as needed)
 mut_colors <- c(
-  "None" = "white",
-  "Missense Mutation" = "#1f78b4",
-  "Nonsense Mutation" = "#e31a6c",
-  "Frame Shift" = "#33a02c",
-  "In Frame" = "#b2df8a",
-  "Splice Site" = "#f9df9b"
+  "None"               = "white",
+  "Missense Mutation"  = "#0072B2",  # blue
+  "Nonsense Mutation"  = "#D55E00",  # vermillion
+  "Frame Shift"        = "#009E73",  # bluish green
+  "In Frame"           = "#56B4E9",  # light blue
+  "Splice Site"        = "#E69F00"   # orange
 )
+
 
 # Make sure mutation types in matrix are factor with these levels
 mut_matrix[] <- lapply(mut_matrix, function(x) factor(x, levels = names(mut_colors)))
