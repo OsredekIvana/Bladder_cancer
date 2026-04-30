@@ -54,13 +54,13 @@ scna_matrix <- filtered_scna %>%
   column_to_rownames("Tumor_Sample_Barcode")
 
 scna_colors <- c(
-  "Amplification" = "#e41a1c",
-  "Aubclonal Amplification" = "#ff7f00",
-  "CN LOH"        = "#377eb8",
-  "Subclonal LOH" = "#984ea3",
-  "Deletion"     = "#4daf4a",
-  "Subclonal Del" = "#a65628",
-  "None"         = "white"  # For empty/NA cells
+  "Amplification"           = "#D55E00",  # vermillion
+  "Subclonal Amplification" = "#E69F00",  # orange
+  "CN LOH"                  = "#0072B2",  # blue
+  "Subclonal LOH"           = "#56B4E9",  # light blue
+  "Deletion"                = "#009E73",  # bluish green
+  "Subclonal Del"           = "#CC79A7",  # purple/pink
+  "None"                    = "white"
 )
 
 # Convert values to factors
